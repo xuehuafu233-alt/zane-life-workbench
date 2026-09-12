@@ -48,9 +48,27 @@
 
 ## 下载与安装
 
-**推荐：下载[完整人生套装](downloads/zane-life-suite-0.4.1.zip)，解压后把目录交给 AI，让它读取「开始使用.md」并引导安装。**
+**推荐：直接让你的 Agent 从 GitHub 安装。**
 
-支持上传自定义 Skill 的软件，可按[组件清单](docs/skill-inventory.md)下载并上传全部五个 ZIP。支持本地文件的 Agent 可使用随包安装器。只想先体验，也可读[纯聊天起步](docs/chat-start.md)。
+在支持 Skills 的 Agent 中输入：
+
+```text
+请从 https://github.com/xuehuafu233-alt/zane-dialogue-skills 安装 ZANE 人生经营工作台，安装全部五个 Skill。安装完成后告诉我怎样开始第一个问题。
+```
+
+如果宿主使用 `skills` 命令，也可以执行：
+
+```bash
+npx -y skills add xuehuafu233-alt/zane-dialogue-skills -g --all
+```
+
+安装后，直接输入：
+
+```text
+使用 ZANE 人生经营工作台，先帮我处理眼前这个问题：……
+```
+
+下载 ZIP 只适用于不能从 GitHub 安装、但支持上传自定义 Skill 的宿主；见[组件清单](docs/skill-inventory.md)。只想先体验，也可读[纯聊天起步](docs/chat-start.md)。
 
 模型、AI 软件及其订阅由你自行选择；这个仓库提供方法、模板、教程与本地工具。保存文件、操作外部软件、提醒等能力，取决于实际宿主。[安装方法与兼容情况 →](docs/install.md)
 
@@ -68,7 +86,7 @@
 | [AI 伙伴设定](skills/zane-agent-identity-card-builder/SKILL.md) | 你希望定义一个长期 AI 伙伴时 |
 | [自我认识](skills/zane-self-insight/SKILL.md) | 你想深入理解价值、动机与反复选择时 |
 
-原来的三个对话 Skill 继续保留，新增人生总控与搭建维护，组成可独立使用的工作台。商业和职场专业扩展可另行共装；没有扩展，也可以先处理日常工作和生活问题。
+原来的三个对话 Skill 继续保留，新增人生总控与搭建维护，组成可独立使用的工作台。安装全部五个 Skill 后从人生总控开始；商业和职场专业扩展可另行共装。
 
 ## 从使用到积累
 
