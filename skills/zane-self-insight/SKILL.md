@@ -1,6 +1,8 @@
 ---
 name: zane-self-insight
 description: 基于真实经历帮助用户理解自己的欲望、能力、价值、身份或行为模式，给出暂定判断并转成现实观察或行动。用于“我为什么会这样”“我真正想要什么”“这真的是我吗”“帮我分析自己”等问题。
+metadata:
+  version: "0.2.0"
 ---
 
 # Zane Self Insight

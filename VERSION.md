@@ -1,5 +1,5 @@
-# Version
+# ZANE 人生经营工作台
 
-`v0.1-alpha-zane-dialogue`
+0.4.1 beta · 2026-09-12
 
-First public collection of Zane's generalized dialogue and AI-collaboration methods.
+组件版本见 [组件目录](docs/skill-inventory.md)，变更见 [更新记录](CHANGELOG.md)。

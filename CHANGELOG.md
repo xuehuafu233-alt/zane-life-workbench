@@ -1,13 +1,13 @@
-# Changelog
+# 更新记录
 
-## v0.1-alpha - 2026-08-25
+## 0.4.1 beta · 2026-09-12
 
-- Added assumption retirement: a rejected premise leaves the active reasoning chain instead of returning as a recurring disclaimer.
-- Rewrote public copy around direct user outcomes and removed references to hypothetical infrastructure.
-- Made long-term recording and environment-specific terminology conditional on the user's actual setup.
+原三个对话 Skill 升级为「ZANE 人生经营工作台」：保留问题转译、AI 伙伴设定与自我认识，加入人生总控与搭建维护，共五个组件。
 
-## v0.1-alpha-zane-dialogue
+- 从一个真实问题开始，先交付当前帮助，必要时再保存和建台。
+- 按需处理价值澄清、目标与方式的区分、阶段取舍和异议复核。
+- 新事实更新相关旧建议，并支持读取已有资料接续。
+- 人生版独立使用，附安装器、升级回滚、纯聊天方法与五个上传包。
+- 发布完整说明、两张原创流程图、使用示例和验证范围。
 
-- Added `zane-question-intent-translator`.
-- Added `zane-agent-identity-card-builder`.
-- Moved the generalized `self-insight` method into this collection as `zane-self-insight`.
+已有技术与 AI 合成场景验证；陌生真人连续使用、全部宿主与长期效果尚待验证。历史记录保留在 Git 提交中。
