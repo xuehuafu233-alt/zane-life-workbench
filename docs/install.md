@@ -5,13 +5,13 @@
 在支持 Skills 的 Agent 中直接说：
 
 ```text
-请从 https://github.com/xuehuafu233-alt/zane-dialogue-skills 安装 ZANE 人生经营工作台，安装全部五个 Skill。安装完成后告诉我怎样开始第一个问题。
+请从 https://github.com/xuehuafu233-alt/zane-life-workbench 安装 ZANE 人生经营工作台，安装全部五个 Skill。安装完成后告诉我怎样开始第一个问题。
 ```
 
 支持 `skills` 命令的宿主可执行：
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-dialogue-skills -g --all
+npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
 ```
 
 安装后重载 Agent（如果宿主需要），输入：
@@ -34,24 +34,22 @@ npx -y skills add xuehuafu233-alt/zane-dialogue-skills -g --all
 
 已经知道任务时，也可以直接告诉 Agent：“调用 `zane-question-intent-translator`，帮我把这件事问清楚”，或“调用 `zane-self-insight`，一起看看我为什么反复犹豫”。通常不需要先选择，人生总控会按问题判断是否联动其他组件。
 
-## 需要上传 ZIP 的宿主
+## 直接使用
 
-不能从 GitHub 安装、但支持上传自定义 Skill 的宿主，才使用[组件清单](skill-inventory.md)中的五个 ZIP。下载包是兼容入口，不是推荐的首次安装路径。
+安装全部五个 Skill 后，直接对 Agent 说：
 
-## 本地文件安装与升级
-
-需要本地文件和 Python 的宿主，可以下载完整包后运行：
-
-```bash
-python3 install.py --skills-dir "<宿主实际Skill目录>"
+```text
+使用 ZANE 人生经营工作台，先帮我处理眼前这个问题：……
 ```
 
-升级前先让 Agent 比较已有安装。由本安装器管理且没有本地修改的旧版可用 `--upgrade`；未知来源或被修改的目录会停止并保留原文件。更新包时从 GitHub 重新安装也可以由宿主的 Skill 管理器完成。
+通常不需要先选择具体组件。已经知道任务时，也可以直接说“调用 `zane-question-intent-translator`，帮我把这件事问清楚”。
 
-## 回滚与能力边界
+## 更新
 
-本地安装器会输出检查点，可用新版安装器的 `--rollback` 恢复；网页上传和宿主内置安装器由宿主负责回滚。个人工作台资料始终与 Skill 安装位置分开。
+更新时再次执行安装命令，Skill 管理器会从 GitHub 获取当前版本。
 
-纯聊天可以体验方法，但不能据此承诺自动保存或跨会话记忆。模型、文件访问和执行能力由宿主决定；本仓库不提供后台服务。
+## 使用说明
+
+个人工作台资料由你选择位置保存。文件访问和执行能力由宿主决定；没有文件能力时，也可以先在聊天中获得当前帮助。
 
 [返回首页](../README.md)

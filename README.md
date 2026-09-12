@@ -6,7 +6,7 @@
 
 **0.4.1 beta · 5 个 Skill · 免费开源 · MIT**
 
-[快速开始](#快速开始) · [下载安装](docs/install.md) · [完整使用手册](docs/guide.md) · [五个组件](docs/skill-inventory.md) · [示例](docs/examples.md) · [更新记录](CHANGELOG.md) · [English](README.en.md)
+[快速开始](#快速开始) · [安装](docs/install.md) · [完整使用手册](docs/guide.md) · [五个组件](docs/skill-inventory.md) · [示例](docs/examples.md) · [更新记录](CHANGELOG.md) · [English](README.en.md)
 
 ![ZANE 从问题到接续的使用流程](docs/images/life-flow.png)
 
@@ -53,13 +53,13 @@
 在支持 Skills 的 Agent 中输入：
 
 ```text
-请从 https://github.com/xuehuafu233-alt/zane-dialogue-skills 安装 ZANE 人生经营工作台，安装全部五个 Skill。安装完成后告诉我怎样开始第一个问题。
+请从 https://github.com/xuehuafu233-alt/zane-life-workbench 安装 ZANE 人生经营工作台，安装全部五个 Skill。安装完成后告诉我怎样开始第一个问题。
 ```
 
 如果宿主使用 `skills` 命令，也可以执行：
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-dialogue-skills -g --all
+npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
 ```
 
 安装后，直接输入：
@@ -68,7 +68,7 @@ npx -y skills add xuehuafu233-alt/zane-dialogue-skills -g --all
 使用 ZANE 人生经营工作台，先帮我处理眼前这个问题：……
 ```
 
-下载 ZIP 只适用于不能从 GitHub 安装、但支持上传自定义 Skill 的宿主；见[组件清单](docs/skill-inventory.md)。只想先体验，也可读[纯聊天起步](docs/chat-start.md)。
+只想先体验，也可读[纯聊天起步](docs/chat-start.md)。
 
 模型、AI 软件及其订阅由你自行选择；这个仓库提供方法、模板、教程与本地工具。保存文件、操作外部软件、提醒等能力，取决于实际宿主。[安装方法与兼容情况 →](docs/install.md)
 
@@ -98,7 +98,7 @@ npx -y skills add xuehuafu233-alt/zane-dialogue-skills -g --all
 
 已有 macOS 本地安装、升级、回滚及文件一致性检查，以及 AI 合成场景中的首次帮助、保存、接续和纠错验证。尚未完成陌生真人连续使用验证，也未实测全部宿主与 Windows；不把技术检查当作生活效果证明。[详细验证范围 →](docs/validation.md)
 
-遇到问题可以[提交 Issue](https://github.com/xuehuafu233-alt/zane-dialogue-skills/issues/new)：写清使用的软件、想完成的事情、实际发生了什么和你希望怎样改。欢迎分享脱敏的使用反馈，也欢迎改进教程与方法。[贡献说明 →](CONTRIBUTING.md)
+遇到问题可以[提交 Issue](https://github.com/xuehuafu233-alt/zane-life-workbench/issues/new)：写清使用的软件、想完成的事情、实际发生了什么和你希望怎样改。欢迎分享脱敏的使用反馈，也欢迎改进教程与方法。[贡献说明 →](CONTRIBUTING.md)
 
 ## 来源与许可
 
