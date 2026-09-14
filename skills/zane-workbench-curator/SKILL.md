@@ -2,7 +2,7 @@
 name: zane-workbench-curator
 description: 为人生、商业和职业工作台维护最小目录、来源、唯一事项状态及跨会话接续；适配既有系统、保存反馈并检查变更，不抢占实际任务。
 metadata:
-  version: "0.4.1"
+  version: "1.0.0"
 ---
 
 # 工作台搭建与维护

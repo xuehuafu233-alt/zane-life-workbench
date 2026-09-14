@@ -5,7 +5,7 @@
 在 Claude Code、Codex 等支持 Agent Skills 的工具中，可以让 Agent 从本仓库安装，也可以执行：
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 `-g` 表示全局安装；安装到当前项目时省略 `-g`。按安装界面选择要使用的 Agent，完成后按宿主要求重载。
@@ -14,7 +14,7 @@ npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
 
 ## 更新
 
-告诉 Agent：“比较本仓库与我已安装的版本，更新人生经营工作台。”保留自己修改过的方法，再按所用 Skill 管理器的更新流程操作。
+告诉 Agent：“比较本仓库与我已安装的版本，更新过好你的人生。”保留自己修改过的方法，再按所用 Skill 管理器的更新流程操作。
 
 需要指定版本时，先在 GitHub 的 Tags 中选择版本，让 Agent 安装对应标签的内容。切换前备份自己修改的文件。
 

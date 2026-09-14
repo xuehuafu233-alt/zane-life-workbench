@@ -1,9 +1,9 @@
-# Contributing
+# 反馈与改进 / Feedback and improvements
 
-欢迎分享具体使用场景、遇到的问题和改进建议。请说明当时想完成什么、实际发生了什么，以及希望怎样改进。
+欢迎通过 GitHub Issues 分享实际使用情况：你想完成什么、提供了哪些适合公开的材料、原本期待什么，以及实际得到什么。附上使用的版本和 Agent，能帮助定位问题。
 
-Contributions work best with a concrete task, the behavior you observed, and the change you would find useful.
+Please share real use through GitHub Issues: what you wanted to accomplish, an input suitable for public sharing, what you expected, and what happened. Include the version and Agent you used.
 
-提交改动时，保持相关中文和英文说明一致，检查链接和示例，并附上与改动有关的验证结果。提交示例前移除私人资料与账户凭据。
+后续版本依据真实反馈改进方法、示例和使用体验。
 
-Keep Chinese and English documentation aligned, check links and examples, and include relevant validation. Remove private information and credentials before sharing an example.
+Future versions will improve methods, examples, and the experience of using the toolkit based on that feedback.

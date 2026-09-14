@@ -2,7 +2,7 @@
 name: zane-question-intent-translator
 description: 把用户的自然语言转成真正要推进的进展、当前决定和可直接交给 AI 的问题。适用于问题模糊、多个意图混在一起、带有预设答案，或用户想先把问题问对再继续。
 metadata:
-  version: "0.2.0"
+  version: "1.0.0"
 ---
 
 # Zane Question Intent Translator

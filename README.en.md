@@ -1,13 +1,13 @@
-# ZANE Life Workbench
+# Live Your Life Well
 
 [简体中文](README.md) | English
 
 > Turn your current situation into choices you can stand behind and actions you can follow through on.
 
-[![Version](https://img.shields.io/badge/version-v0.5.1_beta-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-v1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
-One command installs a collection of Agent Skills that work together to help you understand your situation, weigh choices, coordinate time and responsibilities, complete useful work, and adjust as life changes.
+An AI life workbench that starts with what is happening now. Understand your situation, weigh choices, coordinate time and responsibilities, complete useful work, and adjust as life changes. You decide what living well means.
 
 **For Claude Code, Codex, and other tools that support Agent Skills. Free and open source.**
 
@@ -32,7 +32,7 @@ Start with something happening in your life, and connect your thinking to what c
 ### 1. Install
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 ### 2. Tell your Agent what you are working through
@@ -78,13 +78,13 @@ Use `zane-workbench` for everyday tasks, or call a specific Skill when its purpo
 ### Recommended: install the complete collection
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 Or ask your Agent:
 
 ```text
-Install all Skills from https://github.com/xuehuafu233-alt/zane-life-workbench.
+Install all Skills from https://github.com/ZanePan2027/zane-life-workbench.
 Then use zane-workbench to help me with this: ...
 ```
 

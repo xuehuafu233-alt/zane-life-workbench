@@ -2,7 +2,7 @@
 name: zane-agent-identity-card-builder
 description: 帮用户为一次性、专业或长期 AI 建立可运行的身份卡，定义人格、判断方式、行动主通道、记忆、纠错和条件保护机制。适用于创建或重构 AI 伙伴、工作 Agent 与跨会话协作协议。
 metadata:
-  version: "0.2.0"
+  version: "1.0.0"
 ---
 
 # Zane Agent Identity Card Builder

@@ -1,13 +1,13 @@
-# ZANE 人生经营工作台
+# 过好你的人生
 
 简体中文 | [English](README.en.md)
 
 > 把眼前的处境，变成愿意承担的选择和可以继续的行动。
 
-[![Version](https://img.shields.io/badge/version-v0.5.1_beta-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-v1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
-一条命令安装一组协同工作的 Agent Skills，帮助你理解处境、作出取舍、协调时间与责任、完成具体事情，并在现实变化后继续。
+一个从眼前问题开始的 AI 人生工作台。帮助你理解处境、作出取舍、协调时间与责任、完成具体事情，并在现实变化后继续。怎样过好，由你自己定义。
 
 **适用于 Claude Code、Codex，以及其他支持 Agent Skills 的工具。免费开源。**
 
@@ -32,7 +32,7 @@
 ### 1. 安装
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 ### 2. 直接告诉 Agent 你的处境
@@ -77,13 +77,13 @@ npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
 ### 推荐：安装全部 Skills
 
 ```bash
-npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
+npx -y skills add ZanePan2027/zane-life-workbench -g --all
 ```
 
 也可以直接告诉 Agent：
 
 ```text
-请从 https://github.com/xuehuafu233-alt/zane-life-workbench 安装全部 Skills，
+请从 https://github.com/ZanePan2027/zane-life-workbench 安装全部 Skills，
 然后使用 zane-workbench，帮我处理这件事：……
 ```
 
