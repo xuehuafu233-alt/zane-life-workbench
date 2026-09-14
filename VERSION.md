@@ -1,5 +1,13 @@
-# ZANE 人生经营工作台
+# Version
 
-0.4.1 beta · 2026-09-12
+Current release: **0.5.1 beta**
 
-组件版本见 [组件目录](docs/skill-inventory.md)，变更见 [更新记录](CHANGELOG.md)。
+| Skill | Version |
+|---|---|
+| zane-workbench | 0.5.1 |
+| zane-workbench-curator | 0.4.1 |
+| zane-question-intent-translator | 0.2.0 |
+| zane-agent-identity-card-builder | 0.2.0 |
+| zane-self-insight | 0.2.0 |
+
+[简体中文](README.md) · [English](README.en.md)

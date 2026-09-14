@@ -149,7 +149,7 @@ def all_cases(root):
 
 def render(root):
     cases = all_cases(root)
-    rows = ['# 现在做什么', '', '由事项原件生成；细节按需打开。日期只提示核实，不自动改变现实状态。', '',
+    rows = ['# 现在做什么', '', '点击事项查看当前进展与下一步。', '',
             '| 事项 | 领域 | 状态 | 证据阶段 | 核实提示 |', '|---|---|---|---|---|']
     for event in cases:
         if event['status'] in TERMINAL:
@@ -160,7 +160,7 @@ def render(root):
         rows.append('| [{0}](事项/{0}.json) | {1} | {2} | {3} | {4} |'.format(
             event['id'], domain, event['status'], event['phase'], '日期已到，请核实' if due else ''))
     if len(rows) == 6:
-        rows += ['', '没有已登记的持续行动。一次性任务可以直接完成。']
+        rows += ['', '从当前要推进的一件事开始。']
     atomic_text(inside(root, '现在做什么.md'), '\n'.join(rows) + '\n')
 
 

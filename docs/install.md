@@ -1,55 +1,29 @@
-# 安装、更新与回滚
+# 安装与更新
 
-## 推荐：让 Agent 从 GitHub 安装
+## 安装整套方法
 
-在支持 Skills 的 Agent 中直接说：
-
-```text
-请从 https://github.com/xuehuafu233-alt/zane-life-workbench 安装 ZANE 人生经营工作台，安装全部五个 Skill。安装完成后告诉我怎样开始第一个问题。
-```
-
-支持 `skills` 命令的宿主可执行：
+在 Claude Code、Codex 等支持 Agent Skills 的工具中，可以让 Agent 从本仓库安装，也可以执行：
 
 ```bash
 npx -y skills add xuehuafu233-alt/zane-life-workbench -g --all
 ```
 
-安装后重载 Agent（如果宿主需要），输入：
+`-g` 表示全局安装；安装到当前项目时省略 `-g`。按安装界面选择要使用的 Agent，完成后按宿主要求重载。
 
-```text
-使用 ZANE 人生经营工作台，先帮我处理眼前这个问题：……
-```
-
-安装器或 Skill 管理器应从仓库的 `skills/` 目录读取五个组件，并保留组件依赖。若宿主显示安装范围或权限提示，按你的实际使用范围选择；本仓库不要求上传个人资料。
-
-## 五个组件
-
-| Skill | 作用 | 什么时候直接调用 |
-|---|---|---|
-| `zane-workbench` | 人生总控 | 日常从一个真实问题开始 |
-| `zane-workbench-curator` | 搭建与维护 | 需要保存、接续或适配资料时 |
-| `zane-question-intent-translator` | 问题意图转译 | 说不清进展或多个意图混在一起时 |
-| `zane-agent-identity-card-builder` | AI 伙伴设定 | 想定义长期伙伴的工作方式时 |
-| `zane-self-insight` | 自我认识 | 想理解价值、动机和反复选择时 |
-
-已经知道任务时，也可以直接告诉 Agent：“调用 `zane-question-intent-translator`，帮我把这件事问清楚”，或“调用 `zane-self-insight`，一起看看我为什么反复犹豫”。通常不需要先选择，人生总控会按问题判断是否联动其他组件。
-
-## 直接使用
-
-安装全部五个 Skill 后，直接对 Agent 说：
-
-```text
-使用 ZANE 人生经营工作台，先帮我处理眼前这个问题：……
-```
-
-通常不需要先选择具体组件。已经知道任务时，也可以直接说“调用 `zane-question-intent-translator`，帮我把这件事问清楚”。
+输入“请使用 zane-workbench，帮我处理这件事：……”开始。
 
 ## 更新
 
-更新时再次执行安装命令，Skill 管理器会从 GitHub 获取当前版本。
+告诉 Agent：“比较本仓库与我已安装的版本，更新人生经营工作台。”保留自己修改过的方法，再按所用 Skill 管理器的更新流程操作。
 
-## 使用说明
+需要指定版本时，先在 GitHub 的 Tags 中选择版本，让 Agent 安装对应标签的内容。切换前备份自己修改的文件。
 
-个人工作台资料由你选择位置保存。文件访问和执行能力由宿主决定；没有文件能力时，也可以先在聊天中获得当前帮助。
+## 手动安装
+
+从仓库 `skills/` 目录取得各个 Skill 文件夹，按宿主说明放入它的 Skill 目录。每个文件夹以 `SKILL.md` 为入口，相关方法和模板随目录一起保留。
+
+## 开始保存工作
+
+告诉 Agent 想使用的工作台文件夹。它会读取已有导航，或从本次成果建立记录。Skill 安装目录存放方法，个人工作台文件夹存放自己的资料和进展。
 
 [返回首页](../README.md)

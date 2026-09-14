@@ -1,7 +1,9 @@
-# 反馈与贡献
+# Contributing
 
-欢迎通过 Issue 提供可复现问题或通过 Pull Request 改进方法、教程与工具。
+欢迎分享具体使用场景、遇到的问题和改进建议。请说明当时想完成什么、实际发生了什么，以及希望怎样改进。
 
-反馈写清使用的软件、版本、你想完成的事、实际结果和预期结果；公开内容请使用虚构或脱敏的最小示例，不上传个人档案、聊天原件、密钥或账号材料。
+Contributions work best with a concrete task, the behavior you observed, and the change you would find useful.
 
-修改方法时说明具体解决了哪个断点。测试输出、合成示例与真人效果分开描述；只初始化目录不等于完成用户任务。引入第三方内容时写清来源并保留适用许可证。
+提交改动时，保持相关中文和英文说明一致，检查链接和示例，并附上与改动有关的验证结果。提交示例前移除私人资料与账户凭据。
+
+Keep Chinese and English documentation aligned, check links and examples, and include relevant validation. Remove private information and credentials before sharing an example.

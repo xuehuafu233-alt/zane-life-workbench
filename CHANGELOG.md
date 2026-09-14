@@ -1,13 +1,13 @@
-# 更新记录
+# Changelog
 
-## 0.4.1 beta · 2026-09-12
+## 0.5.1 beta — 2026-09-14
 
-原三个对话 Skill 升级为「ZANE 人生经营工作台」：保留问题转译、AI 伙伴设定与自我认识，加入人生总控与搭建维护，共五个组件。
+- 围绕处境、选择、承诺与资源、行动反馈和接续重构人生经营流程。
+- 统一当前事项与成果的保存方式，新事实出现后修订相关判断和安排。
+- 重写中英文主页、起步教程和空白工作台说明，以用途、成果与具体用法组织内容。
 
-- 从一个真实问题开始，先交付当前帮助，必要时再保存和建台。
-- 按需处理价值澄清、目标与方式的区分、阶段取舍和异议复核。
-- 新事实更新相关旧建议，并支持读取已有资料接续。
-- 人生版独立使用，附安装方法、纯聊天起步与五个组件说明。
-- 发布完整说明、两张原创流程图、使用示例。
+- Rebuilt the life workflow around context, choices, commitments, resources, action, and continuity.
+- Unified task records and saved work, with revisions when new information changes a decision.
+- Rewrote the Chinese and English overviews, guides, and starter workspace copy around practical use.
 
-包含本地使用记录；欢迎通过 Issue 分享实际使用反馈。
+Earlier versions are available in the repository's tags and Git history.

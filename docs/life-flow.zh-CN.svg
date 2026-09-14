@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="208" viewBox="0 0 1000 208" role="img" aria-label="从眼前的问题开始">
+<rect width="1000" height="208" rx="18" fill="#F4F7FB"/>
+<text x="40" y="48" fill="#183153" font-family="system-ui,sans-serif" font-size="22" font-weight="600">从眼前的问题开始</text>
+<rect x="40" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
+<text x="123" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">理解处境</text>
+<path d="M212 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
+<rect x="228" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
+<text x="311" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">作出选择</text>
+<path d="M400 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
+<rect x="416" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
+<text x="499" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">完成事情</text>
+<path d="M588 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
+<rect x="604" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
+<text x="687" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">带回反馈</text>
+<path d="M776 119h10m-4-4 4 4-4 4" stroke="#6783A3" fill="none" stroke-width="2"/>
+<rect x="792" y="83" width="166" height="72" rx="12" fill="white" stroke="#D5DFEB"/>
+<text x="875" y="126" text-anchor="middle" fill="#183153" font-family="system-ui,sans-serif" font-size="17">接着继续</text>
+</svg>
